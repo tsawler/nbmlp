@@ -1,0 +1,42 @@
+/* search form */
+
+#search-form .search-text-box {
+    background-color: #fff;
+    background-image: url(/packages/verilion/vcms/css/search-icon.png);
+    background-position: 6px 56%;
+    background-repeat: no-repeat;
+    border: 0;
+    color: transparent;
+    font-size: 13px;
+    line-height: 18px;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 30px;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#search-form .search-text-box:focus {
+    font-size: 13px;
+    background-color: #fff;
+    width: 170px;
+    height: 25px;
+    border: 0;
+    color: #888;
+    cursor: text;
+    text-align: left;
+    padding: 0 15px 1px 25px;
+}
+
+#search-form form,ul.post-meta,.sidebar ul,ul.tabs,.testimonials ul,ul.why,.panel-heading h3,.features .panel-heading h4,#options ul,.gallery ul {
+    margin: 0;
+}

@@ -1,0 +1,6 @@
+/* Your CSS codes here */
+body.bg-img{
+    background:url("../img/wp.jpg"),url("../img/backgrounds/1.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+}

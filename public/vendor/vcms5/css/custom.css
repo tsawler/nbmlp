@@ -1,0 +1,34 @@
+.btn-outline {
+    outline: 1px solid silver !important;
+}
+.admin-hidden {
+    display: none;
+}
+.btn-outline {
+    outline: 1px solid silver !important;
+}
+/** copy and modify this style for custom breadcrumb backgrounds **/
+
+.breadcrumb-1{
+    background:url('../public-assets/img/showcase-2.jpg') repeat fixed;
+    background-size: cover;
+    padding: 70px 0;
+    border-bottom: 0px;
+}
+.breadcrumb-1 h4{
+    color:#fff;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.breadcrumb-1 ol.breadcrumb li a {
+    color: #fff;
+}
+.breadcrumb-1 ol.breadcrumb {
+    color: #fff;
+    font-weight: 400;
+}
+.breadcrumb-1 p{
+    color:#fff;
+    font-weight: 500;
+}

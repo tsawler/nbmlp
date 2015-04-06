@@ -149,6 +149,9 @@ return [
         'Intervention\Image\ImageServiceProvider',
         'Illuminate\Html\HtmlServiceProvider',
         'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
+        'Barryvdh\Debugbar\ServiceProvider',
+        'Jenssegers\Date\DateServiceProvider',
+        'Tsawler\Vcms5\Vcms5ServiceProvider',
 
 
 	],
@@ -202,6 +205,8 @@ return [
         'Image'     => 'Intervention\Image\Facades\Image',
         'Form'      => 'Illuminate\Html\FormFacade',
         'Html'      => 'Illuminate\Html\HtmlFacade',
+        'Debugbar' => 'Barryvdh\Debugbar\Facade',
+        'Date'      => 'Jenssegers\Date\Date',
 
 	],
 
