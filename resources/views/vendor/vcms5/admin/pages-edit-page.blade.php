@@ -212,7 +212,9 @@
                             {
                                 toolbar : 'MyToolbar',
                                 forcePasteAsPlainText: true,
-                                enterMode : '1'
+                                enterMode : '1',
+                                filebrowserImageBrowseUrl: '/laravel-filemanager?type=Images',
+                                filebrowserBrowseUrl: '/laravel-filemanager?type=Files'
                             });
 
                     @if (Config::get('vcms5.use_fr'))
@@ -220,7 +222,9 @@
                             {
                                 toolbar : 'MyToolbar',
                                 forcePasteAsPlainText: true,
-                                enterMode : '1'
+                                enterMode : '1',
+                                filebrowserImageBrowseUrl: '/laravel-filemanager?type=Images',
+                                filebrowserBrowseUrl: '/laravel-filemanager?type=Files'
                             });
                     @endif
 
@@ -229,7 +233,9 @@
                             {
                                 toolbar : 'MyToolbar',
                                 forcePasteAsPlainText: true,
-                                enterMode : '1'
+                                enterMode : '1',
+                                filebrowserImageBrowseUrl: '/laravel-filemanager?type=Images',
+                                filebrowserBrowseUrl: '/laravel-filemanager?type=Files'
                             });
                     @endif
                 });
