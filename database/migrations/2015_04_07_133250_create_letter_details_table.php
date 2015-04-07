@@ -13,7 +13,7 @@ class CreateLetterDetailsTable extends Migration {
     public function up() {
         Schema::create('letter_details', function($table) {
             $table->increments('id');
-            $table->integer('letter_id');
+            $table->integer('letter_id')->unsigned();
             $table->integer('sort_order');
             $table->string('letter_image')->nullable();
             $table->timestamps();
@@ -24,7 +24,7 @@ class CreateLetterDetailsTable extends Migration {
                 ->references('id')
                 ->on('letters')
                 ->onUpdate('cascade')
-                ->onDelete('set null');
+                ->onDelete('cascade');
         });
     }
 

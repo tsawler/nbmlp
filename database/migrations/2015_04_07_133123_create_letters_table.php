@@ -13,7 +13,7 @@ class CreateLettersTable extends Migration {
     public function up() {
         Schema::create('letters', function($table) {
             $table->increments('id');
-            $table->integer('author_id');
+            $table->integer('author_id')->unsigned();
             $table->string('recipient')->nullable();
             $table->string('letter_name');
             $table->date('letter_date');
@@ -28,7 +28,7 @@ class CreateLettersTable extends Migration {
                 ->references('id')
                 ->on('authors')
                 ->onUpdate('cascade')
-                ->onDelete('set null');
+                ->onDelete('cascade');
         });
     }
 
