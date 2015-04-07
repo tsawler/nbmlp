@@ -11,7 +11,7 @@ class CreateLetterDetailsTable extends Migration {
 	 * @return void
 	 */
     public function up() {
-        Schema::create('letters_details', function($table) {
+        Schema::create('letter_details', function($table) {
             $table->increments('id');
             $table->integer('letter_id');
             $table->integer('sort_order');
